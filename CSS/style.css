@@ -1,0 +1,48 @@
+* {
+	background: url('../images/shrek.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.comfortaa {
+  font-family: "Comfortaa", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+h1 {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	color: black;
+	text-shadow: -1px 1px 0 white, 1px 1px 0 white, 1px -1px 0 white, -1px -1px 0 white;
+}
+h6 {
+	position: absolute;
+	top: 900px;
+	font-size: 2px;
+}
+@media screen and (max-width: 900px) {
+	* {
+		background: url('../images/shrek3.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	h1 {
+		position: absolute;
+		top: 200px;
+		left: 450px;
+	}
+}
+@media screen and (max-width: 600px) {
+	* {
+		background: url('../images/shrek2.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	h1 {
+		position: absolute;
+		top: 50px;
+		right: 50px;
+		text-shadow: -1px 1px 0 white, 1px 1px 0 white, 1px -1px 0 white, -1px -1px 0 white;
+	}
+}
